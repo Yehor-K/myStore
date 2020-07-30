@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="title">
+                    <h1 class="title__name">My Comics Store</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <div class="main__column">
+                    <div class="main__flt-srch">
+
+                        <div class="flt-srch__filter">
+                            <label for="category">Выберите категорию: </label>
+                            <select id="category">
+                                <option selected>Все</option>
+                                <option>K9</option>
+                                <option>Скуби-Ду</option>
+                                <option>Хрущевка</option>
+                            </select>
+                        </div>
+
+                        <div class="flt-srch__search">
+                            <label for="search">Поиск: </label>
+                            <input type="text" id="search">
+                        </div>
+                        <div class="flt-srch__button">
+                            <button class="srch__button">Найти</button>
+                        </div>
+
+                        <div class="flt-srch__basket">
+                            <div class="basket">
+                                <img class="basketImg" src="basket.png" alt="basket">
+                            </div>
+                            <div class="basket__block">
+                                <p class="sumBasket"></p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <main class="main__section">
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts">
+                    <p>Кучин Егор</p>
+                    <p>yehorkuch@gmail.com</p>
+                    <p>+380681186751 (Telegram, Viber)</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

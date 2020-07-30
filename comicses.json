@@ -1,0 +1,32 @@
+[
+    {
+        "name": "№1-2003",
+        "price": 100,
+        "type": "k9",
+        "imagepath": "№1-2003.jpg"
+    },
+    {
+        "name": "№2[5]-февраль-2004",
+        "price": 150,
+        "type": "k9",
+        "imagepath": "№2[5]-февраль-2004.jpg"
+    },
+    {
+        "name": "скуби-ду в плену",
+        "price": 300,
+        "type": "скуби-ду",
+        "imagepath": "scooby-doo.jpg"
+    },
+    {
+        "name": "глава №1. в поисках",
+        "price": 500,
+        "type": "хрущевка",
+        "imagepath": "hruchovka.jpg"
+    },
+    {
+        "name": "№1[16]-январь-2005",
+        "price": 100,
+        "type": "k9",
+        "imagepath": "№1[16]-январь-2005.jpg"
+    }
+]
